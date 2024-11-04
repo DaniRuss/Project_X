@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-kiv(hoe762uah&1)9hx$m*9ob#z==_#5x=2#gv5i5p#w=+9_4a'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['cms_project.onrender']
 
 
 # Application definition
